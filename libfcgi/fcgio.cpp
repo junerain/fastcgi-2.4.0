@@ -22,8 +22,10 @@
 #define DLLAPI  __declspec(dllexport)
 #endif
 
+#include <stdio.h>
 #include <limits.h>
 #include "fcgio.h"
+
 
 using std::streambuf;
 using std::istream;
